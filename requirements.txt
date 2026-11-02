@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+scipy
+scikit-learn==1.9.1
+joblib
+altair
+anthropic
+pytest

@@ -1,0 +1,103 @@
+{
+  "model": "Random Forest (150 trees, orientation-robust)",
+  "features": 42,
+  "test_windows": 2947,
+  "accuracy": 0.841533763148965,
+  "macro_f1": 0.8407289352558514,
+  "labels": [
+    "WALKING",
+    "WALKING_UPSTAIRS",
+    "WALKING_DOWNSTAIRS",
+    "SITTING",
+    "STANDING",
+    "LAYING"
+  ],
+  "confusion_matrix": [
+    [
+      408,
+      69,
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      76,
+      387,
+      8,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      53,
+      357,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      361,
+      81,
+      49
+    ],
+    [
+      0,
+      0,
+      0,
+      32,
+      500,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      70,
+      0,
+      467
+    ]
+  ],
+  "per_class": {
+    "WALKING": {
+      "precision": 0.8259109311740891,
+      "recall": 0.8225806451612904,
+      "f1-score": 0.8242424242424242,
+      "support": 496.0
+    },
+    "WALKING_UPSTAIRS": {
+      "precision": 0.7603143418467584,
+      "recall": 0.821656050955414,
+      "f1-score": 0.789795918367347,
+      "support": 471.0
+    },
+    "WALKING_DOWNSTAIRS": {
+      "precision": 0.9296875,
+      "recall": 0.85,
+      "f1-score": 0.8880597014925373,
+      "support": 420.0
+    },
+    "SITTING": {
+      "precision": 0.7796976241900648,
+      "recall": 0.7352342158859471,
+      "f1-score": 0.7568134171907757,
+      "support": 491.0
+    },
+    "STANDING": {
+      "precision": 0.8605851979345955,
+      "recall": 0.9398496240601504,
+      "f1-score": 0.8984725965858041,
+      "support": 532.0
+    },
+    "LAYING": {
+      "precision": 0.9050387596899225,
+      "recall": 0.8696461824953445,
+      "f1-score": 0.8869895536562203,
+      "support": 537.0
+    }
+  }
+}

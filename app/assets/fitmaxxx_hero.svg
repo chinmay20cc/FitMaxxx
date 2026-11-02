@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" role="img" aria-labelledby="title desc">
+<title id="title">FitMaxxx movement illustration</title><desc id="desc">A runner moving through a soft green landscape at sunrise.</desc>
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E8EFE0"/><stop offset="1" stop-color="#C4D7C3"/></linearGradient>
+ <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#A8C19D"/><stop offset="1" stop-color="#6F987B"/></linearGradient>
+ <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D9EA91"/><stop offset="1" stop-color="#A9CC66"/></linearGradient>
+</defs>
+<rect width="840" height="520" fill="url(#sky)"/>
+<circle cx="675" cy="105" r="54" fill="#F7F2D9" opacity=".9"/>
+<path d="M0 300C122 227 231 267 337 317s218 59 503-38v241H0z" fill="#B5CDAF"/>
+<path d="M0 365c156-82 266-59 381-8s241 44 459-30v193H0z" fill="url(#hill)"/>
+<path d="M0 425c189-65 302-24 425 16s237 24 415-23v102H0z" fill="#456E58"/>
+<path d="M62 400c82-28 133-31 212-7M600 392c65-27 115-29 176-14" stroke="#D9E8D3" stroke-width="5" opacity=".65" fill="none" stroke-linecap="round"/>
+<!-- runner silhouette, intentionally editorial rather than photorealistic -->
+<g transform="translate(390 65)">
+ <circle cx="125" cy="56" r="31" fill="#C78361"/>
+ <path d="M99 48c8-30 48-45 70-15-13-4-23-2-33 3-11 7-19 13-37 12z" fill="#283D34"/>
+ <path d="M105 98c23-21 58-20 81 4l37 88-90 45-57-72z" fill="url(#shirt)"/>
+ <path d="M103 112L42 178 10 166-3 186l57 24 82-66z" fill="#C78361"/>
+ <path d="M177 111l59 44 39-15 10 21-56 31-69-42z" fill="#C78361"/>
+ <path d="M136 218l-39 105-89 47 11 22 119-36 66-111z" fill="#314D40"/>
+ <path d="M192 211l49 83 69 26-7 24-91-14-76-78z" fill="#314D40"/>
+ <path d="M8 355l-34 8-10 15 58 1 47-24zM295 344l35 6 15 13-57 5-34-15z" fill="#F3F2E9"/>
+ <path d="M119 97l31-2 26 23-47 43-43-37z" fill="#E6F0CE" opacity=".45"/>
+</g>
+<g fill="#244F3D" opacity=".35"><circle cx="92" cy="140" r="4"/><circle cx="131" cy="120" r="3"/><circle cx="754" cy="230" r="4"/><circle cx="704" cy="266" r="3"/></g>
+<path d="M50 470h170" stroke="#E5EEDB" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+</svg>
